@@ -52,20 +52,20 @@
 
 			final=(harfnotu[selection-1]-(result1+result2+result3))/finalkat;
 
-			if(final>100)
+		if(final>100)
             {
 				printf("Impossible to pass.");
 			}
 
-			else if(final < 0)
+		else if(final < 0)
             {
                 printf("Final can not get negative numbers. \n ");
             }
-            else
+                else
 			{
 				printf("The Minimum Final Exam Grade To Pass With: %.2f\n",final);
 			}
-			break;
+	        break;
 
 		case 2:
 			printf("Physic Midterm result : ");
@@ -90,15 +90,15 @@
             {
 				printf("Impossible to pass.");
 			}
-			else if(final < 0)
+		else if(final < 0)
             {
                 printf("Final can not get negative numbers.\n");
             }
-			else
+		else
 			{
 				printf("The Minimum Final Exam Grade To Pass With: %.2f\n", final);
 			}
-			break;
+		break;
 		case 3 :
 			printf("Computer Programming Midterm Exam Result : ");
 			scanf("%d",&midtermexam);
@@ -124,15 +124,15 @@
             {
 				printf("Impossible to pass.");
 			}
-			else if(final < 0)
+		else if(final < 0)
             {
                 printf("Final can not get negative numbers.\n");
             }
-			else
+		else
 			{
 				printf("The Minimum Final Exam Grade To Pass With: %.2f\n", final);
 			}
-			break;
+		break;
     	case 4 :
 			printf("Introduction to Computer Engineering Midterm Exam Result : ");
 			scanf("%d",&midtermexam);
@@ -154,15 +154,15 @@
             {
 				printf("Impossible to pass.");
 			}
-			else if(final < 0)
+		else if(final < 0)
             {
                 printf("Final can not get negative numbers.\n");
             }
-			else
+		else
 			{
 				printf("The Minimum Final Exam Grade To Pass With : %.2f\n", final);
 			}
-			break;
+		break;
 
 
 }
